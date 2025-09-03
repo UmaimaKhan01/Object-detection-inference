@@ -1,0 +1,90 @@
+
+=== EVAL results\frcnn_50.json ===
+metric	value
+AP	0.0062
+AP50	0.0082
+AP75	0.0072
+AP_small	0.0068
+AP_medium	0.0065
+AP_large	0.0054
+AR1	0.0029
+AR10	0.0045
+AR100	0.0047
+AR_small	0.0064
+AR_medium	0.0053
+AR_large	0.0046
+
+=== EVAL results\frcnn_50.json ===
+metric	value
+AP	0.0062
+AP50	0.0082
+AP75	0.0072
+AP_small	0.0068
+AP_medium	0.0065
+AP_large	0.0054
+AR1	0.0029
+AR10	0.0045
+AR100	0.0047
+AR_small	0.0064
+AR_medium	0.0053
+AR_large	0.0046
+
+=== EVAL results\frcnn_50.json ===
+metric	value
+AP	0.0063
+AP50	0.0086
+AP75	0.0072
+AP_small	0.0069
+AP_medium	0.0066
+AP_large	0.0055
+AR1	0.0030
+AR10	0.0049
+AR100	0.0051
+AR_small	0.0069
+AR_medium	0.0056
+AR_large	0.0048
+
+=== EVAL results\frcnn.json ===
+metric	value
+AP	0.3694
+AP50	0.5854
+AP75	0.3980
+AP_small	0.2108
+AP_medium	0.4032
+AP_large	0.4817
+AR1	0.3073
+AR10	0.4850
+AR100	0.5088
+AR_small	0.3154
+AR_medium	0.5455
+AR_large	0.6464
+
+=== EVAL results\detr.json ===
+metric	value
+AP	0.4016
+AP50	0.5920
+AP75	0.4227
+AP_small	0.1907
+AP_medium	0.4358
+AP_large	0.5883
+AR1	0.3190
+AR10	0.4751
+AR100	0.4882
+AR_small	0.2442
+AR_medium	0.5302
+AR_large	0.6932
+
+=== EVAL results\gdino.json ===
+metric	value
+AP	0.5210
+AP50	0.6755
+AP75	0.5717
+AP_small	0.3308
+AP_medium	0.5596
+AP_large	0.6858
+AR1	0.3818
+AR10	0.5950
+AR100	0.6160
+AR_small	0.4076
+AR_medium	0.6548
+AR_large	0.7901
