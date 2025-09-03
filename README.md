@@ -5,7 +5,7 @@ The project evaluates multiple object detection models on the COCO 2017 validati
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 ```
 object_detection_comparison/
 │
@@ -27,7 +27,7 @@ object_detection_comparison/
 
 ---
 
-## ✅ Models Covered
+## Models Covered
 - **Faster R-CNN** (`torchvision.models.detection.fasterrcnn_resnet50_fpn`)
 - **DETR** (`facebook/detr-resnet-50`)
 - **Grounding-DINO** (`IDEA-Research/grounding-dino-base`)  
@@ -35,7 +35,7 @@ object_detection_comparison/
 
 ---
 
-## ⚙️ Environment Setup
+## Environment Setup
 Create a conda environment and install dependencies:
 ```bash
 conda create -n gpu_env python=3.9 -y
@@ -49,7 +49,7 @@ Key packages:
 
 ---
 
-## 📊 Running Inference & Evaluation
+## Running Inference & Evaluation
 ### 1. Run inference (example: Faster R-CNN on 50 images)
 ```powershell
 cd $ROOT
@@ -68,7 +68,7 @@ python make_demo.py --coco_dir "$COCO" --split val2017 --pred results\frcnn_50.j
 
 ---
 
-## 🚀 One-Line Command (all models + demos + zip)
+## One-Line Command (all models + demos + zip)
 To reproduce my submission in one step (except plain DINO):
 ```powershell
 cd $ROOT; $env:TF_CPP_MIN_LOG_LEVEL="3"; $PROMPTS=(Get-Content ".\coco80.txt" -Raw);
@@ -86,7 +86,7 @@ Compress-Archive -Force -Path '.\run_inference.py','.\evaluate.py','.\make_demo.
 
 ---
 
-## 📌 Notes
+## Notes
 - COCO 2017 validation set (`val2017` + `annotations/instances_val2017.json`) must be available under `$COCO`.  
 - Logs (`logs/run.txt`) show runtime info like FPS and GPU memory.  
 - Evaluation results (`results/eval_log.txt`) summarize AP/AR metrics for all models.  
