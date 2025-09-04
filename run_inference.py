@@ -1,11 +1,5 @@
 #!/usr/bin/env python3
 """
-Run inference on COCO2017 (val2017 by default) with:
-- Faster R-CNN (torchvision)
-- DETR (HF)
-- DINO (HF)
-- GroundingDINO (HF, zero-shot via text prompts)
-
 Writes COCO-format predictions JSON and appends a simple runtime log.
 """
 
