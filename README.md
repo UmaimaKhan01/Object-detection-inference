@@ -1,6 +1,5 @@
 # Object Detection Inference 
-
-This repository contains my submission for **CVS Assignment 2: Object Detection Comparison**.  
+ 
 The project evaluates multiple object detection models on the COCO 2017 validation set and provides inference results, evaluation metrics, and demo visualizations.  
 
 ---
